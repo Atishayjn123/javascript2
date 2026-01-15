@@ -189,7 +189,7 @@
 // console.log(arr.pop());
 // console.log(arr);
 // console.log(arr.slice(0,3));
-const arr= [1,2,[3,[[5,6]],[7],8,9]];
+// const arr= [1,2,[3,[[5,6]],[7],8,9]];
 // const arr1=[1,2,3,4,5];
 // console.log(arr.splice(2,1,"jaa","Atishsy"));
 // // console.log(arr);
@@ -201,4 +201,77 @@ const arr= [1,2,[3,[[5,6]],[7],8,9]];
 // console.log(arr);
 // console.log(arr.copyWithin(1,3,5));
 // console.log(arr);
-console.log(arr.flat(2));
+// console.log(arr.flat(2));
+// const obj1= {
+//     name: " atishay",
+//     show(){
+//         const arr = () =>{
+//             console.log(this.name);
+//         }
+//         arr();
+        
+//     }
+
+
+// };
+// obj1.show();
+// let obj1={
+//     name:"atishay",
+//     age:20,
+//     courses: {
+//         domain : "ahali",
+//         age: 20
+
+//     }
+// };
+// let obj2 =structuredClone(obj1);
+// let{courses : {domain}} =obj1;
+// console.log(obj2);
+// console.log(obj1);
+// let obj1={
+//     name:"irshad"
+// }
+// let obj2=obj1;
+// obj1.name="atishay";
+// console.log(obj1);
+// console.log(obj2);
+
+// function sum(...num){
+//     return a+b;
+// }
+// sum(1,2);
+//  const arr=[1,2,3,4,[2,3,4]];
+//  const arr2=structuredClone(arr);
+//  arr[4][1]=4;
+//  console.log(arr);
+//  console.log(arr2);
+
+// const obj1={
+//     name:"atishay",
+//     age:3,
+//     adult: ()=>{
+//         console.log(this.name);
+//     }
+//     ();
+// };
+// let arr=[1,3,5,43];
+// let target=43;
+// function binarysearch(arr,target){
+//     let start=0;
+//     let end = arr.length-1;
+//     while(start<=end){
+//         let mid = Math.floor(start+(end-start)/2);
+//         if(arr[mid]===target){
+//             return mid;
+//         }
+//         if(arr[mid]<target){
+//             start=mid+1;
+//         }
+//         else{
+//             end=mid-1;
+//         }
+//     }
+//     return -1;
+// }
+// let result=binarysearch(arr,target);
+// console.log(result);
