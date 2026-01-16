@@ -275,3 +275,44 @@
 // }
 // let result=binarysearch(arr,target);
 // console.log(result);
+
+// let a = "atishay" ;
+// // let b =20;
+// // console.log(`sum is ${a+b}`);
+let obj = {
+    name:"atishay",
+    age:21,
+    father:"hello",
+    domains:{
+        courses: "CSE",
+        BRANCH:"BTECH",
+        SUBJECTS:{
+            TECHNOL:"cs",
+            development:"helloji",
+            testing:"automation",
+            department:{
+                science : "shikha",
+                drawing : "priya"
+            }
+    
+        }
+    }
+};
+for(let key in obj.domains){
+    console.log(key,obj.domains[key]);
+}
+
+// console.log(Object.entries(obj));
+// console.log(obj.domains.SUBJECTS.department.drawing);
+// let{domains :
+//      {SUBJECTS :
+//          {department:
+//             {drawing}
+//         }
+//     }
+// }=obj;
+// console.log(drawing);
+
+// for(let i = 1;i<=5;i++){
+//     console.log(i);
+// }
